@@ -1,21 +1,38 @@
-html, body {
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-	 background-color: lightblue;
+body {
+	font-family: system-ui;
+	background: #fefae0;
+	color: #606c38;
+}
+h1{
+	color: #606c38;
+	font-size: 60px;
+	font-align: center;
+	text-decoration-line: underline;
+	text-decoration-color: #dda15e;
+	text-decoration-style: double;
+	text-align: center;
+}
+
+img:hover {
+	transform: scaleY(-1);
+	height: 35%;
+	width: 35%;
+	border: dotted red 25px;
+}
+
+nav{
+	list-style-type: none;
+	position : fixed;
+	width: 1000px;
+	top: 0;
+	left: 0;
+}
+
+li {
+	display: inline;
+	padding: 20px;
+	color: #283618;
+	font-size: 25px;
 }
 
 
-
-.overlay {
-    position: fixed;
-    top: 50%;
-    left: 30%;
-    max-width: 50%;
-    transform: translate(-50%, -50%);
-    font-family: sans-serif;
-    font-size: 10vh;
-    font-weight: bold;
-    pointer-events: none;
-    text-transform: uppercase;
-}
